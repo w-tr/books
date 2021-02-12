@@ -12,8 +12,8 @@ This repository is dedicated to the exercises of
 
 The books "Table of Content"  represents the task list.
 
-- [x] 01. Introduction
-- [x] 02. Some Fundamentals
+- [x] [01. Introduction](Chapter_1)
+- [x] [02. Some Fundamentals](Chapter_2)
 - [ ] 03. Compiling and Running Your First Program
 - [ ] 04. Variables, Data Types, and Arithmetic Expressions
 - [ ] 05. Program Loops
