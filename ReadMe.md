@@ -15,7 +15,7 @@ The books "Table of Content"  represents the task list.
 - [x] [01. Introduction](Chapter_1)
 - [x] [02. Some Fundamentals](Chapter_2)
 - [x] [03. Compiling and Running Your First Program](Chapter_3)
-- [ ] 04. Variables, Data Types, and Arithmetic Expressions
+- [x] [04. Variables, Data Types, and Arithmetic Expressions](Chapter_4)
 - [ ] 05. Program Loops
 - [ ] 06. Making Decisions
 - [ ] 07. Working with Arrays
