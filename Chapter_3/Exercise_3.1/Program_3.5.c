@@ -10,7 +10,7 @@
 // Author              : Wesley Taylor-Rendal (WTR)
 // Design history      : Review git logs.
 // Description         : Displaying multiple values
-// Concepts introduced : The printf statement can take multiple format 
+// Concepts            : The printf statement can take multiple format 
 //                     : specifiers, and the subsitutions values can be placed
 //                     : in an ordered list after the text string to be 
 //                     : displayed.

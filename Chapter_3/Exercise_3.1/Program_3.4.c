@@ -10,7 +10,7 @@
 // Author              : Wesley Taylor-Rendal (WTR)
 // Design history      : Review git logs.
 // Description         : Displaying variables
-// Concepts introduced : A variable can be created and assigned a value.
+// Concepts            : A variable can be created and assigned a value.
 //                     : The printf function reacts to special character strings
 //                     : as shown by %i, the format specifier and its
 //                     : corresponding substitution value (our variable sum)

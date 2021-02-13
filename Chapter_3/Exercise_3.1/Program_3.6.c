@@ -10,7 +10,7 @@
 // Author              : Wesley Taylor-Rendal (WTR)
 // Design history      : Review git logs.
 // Description         : Using comments in a program
-// Concepts introduced : c allows user comments. These can be either 
+// Concepts            : c allows user comments. These can be either 
 //                     :    delimited   (/* */)
 //                     :        spanning many lines and they start with
 //                     :        /*

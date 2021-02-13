@@ -10,7 +10,7 @@
 // Author              : Wesley Taylor-Rendal (WTR)
 // Design history      : Review git logs.
 // Description         : Displaying multiple lines
-// Concepts introduced : printf function reacts to special character strings
+// Concepts            : printf function reacts to special character strings
 //                     : as shown by line breaks with \n
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #include <stdio.h>

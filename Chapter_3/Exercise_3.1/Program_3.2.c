@@ -10,7 +10,7 @@
 // Author              : Wesley Taylor-Rendal (WTR)
 // Design history      : Review git logs.
 // Description         : Multiple calls to printf
-// Concepts introduced : The internals to the main function can be changed. The
+// Concepts            : The internals to the main function can be changed. The
 //                     : output is visible. In this instance. Multiple
 //                     : calls to printf are implemented.
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

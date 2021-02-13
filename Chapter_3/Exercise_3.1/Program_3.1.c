@@ -10,7 +10,7 @@
 // Author              : Wesley Taylor-Rendal (WTR)
 // Design history      : Review git logs.
 // Description         : First program introduced in the book
-// Concepts introduced : The preprocessor requires #include statement to get
+// Concepts            : The preprocessor requires #include statement to get
 //                     : information about the printf function.
 //                     : The main function is declared and it's routine
 //                     : is embedded within parathesis.
