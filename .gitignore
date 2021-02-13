@@ -1,0 +1,8 @@
+# Ignore Everything
+*
+# Except 
+!.gitignore
+!*.c
+!*.md
+# and instances of the above in subdirectories.
+!*/
