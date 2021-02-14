@@ -10,7 +10,7 @@
 // Author         : Wesley Taylor-Rendal (WTR)
 // Design history : Review git logs.
 // Description    : Display table of n and n^2
-// Concepts       : Using a loop to output a table
+// Concepts       : Using a loop to scale, and display a table.
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #include <stdio.h>
 
