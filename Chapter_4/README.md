@@ -34,3 +34,5 @@ It discusses the following
 <u>**Combining Operations with Assignments: The Assignment Operators**</u> - c allows arithmetic to be merged with the assignment operator op=, where op can be operators mentioned above.
 
 <u>**Types _Complex and _Imaginary**</u> - Nothing noteworthy mentioned in this chapter.
+
+**<u>Exercises</u>** - Please see corresponding files in this directory.
