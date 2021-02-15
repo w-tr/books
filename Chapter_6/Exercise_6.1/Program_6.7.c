@@ -13,7 +13,6 @@
 // Concepts       : scanf, with char data type
 //                : compounded checks on if branch, for upcase/lower, char or ..
 //                : this is range limiting!
-//                : Prelude to switch-case statement
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #include <stdio.h>
 
