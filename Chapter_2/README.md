@@ -1,4 +1,4 @@
-### **This chapter contains no exercises**
+### **Some Fundamentals**
 
 It discusses the following
 

@@ -1,4 +1,4 @@
-### **This chapter contains exercises!**
+### **Program Looping**
 
 It discusses the following
 

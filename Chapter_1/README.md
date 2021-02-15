@@ -1,4 +1,4 @@
-**This chapter contains no exercises.**
+### **Introduction**
 
 The chapter states solutions located at www.kochan-wood.com. This link is obsolete. Therefore I have created this github repository.
 

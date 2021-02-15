@@ -1,4 +1,4 @@
-### **This chapter contains exercises!**
+### Variables, Data Types, and Arithmetic Expressions
 
 It discusses the following
 

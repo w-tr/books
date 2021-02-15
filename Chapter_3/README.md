@@ -1,4 +1,4 @@
-### **This chapter contains exercises!**
+### Compiling and Running Your First Program
 
 It discusses the following
 
