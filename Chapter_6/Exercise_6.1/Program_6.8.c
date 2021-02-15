@@ -14,8 +14,6 @@
 //                : Many decisions on one variable
 //                : Prelude to switch-case statement
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-// evaluate simple expression
-
 #include <stdio.h>
 
 int main(void)
