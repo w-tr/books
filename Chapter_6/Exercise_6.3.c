@@ -9,7 +9,7 @@
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Author         : Wesley Taylor-Rendal (WTR)
 // Design history : Review git logs.
-// Description    : 
+// Description    : Result of division to 3 decimal points
 // Concepts       : Decision based on an if-else statement
 //                : Failsafe programming, Exercise 6.2 should have checked for
 //                :     division by zero
