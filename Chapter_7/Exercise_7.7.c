@@ -12,6 +12,7 @@
 // Description    : Implementation of the Sieve of Erastothenes
 // Concepts       : Implementing algorithm based on description of steps, using
 //                :    knowledge of arrays, loops, everything discused todate
+//                : Creating a mask/filter
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Fun facts    - Erastothenes was the head of the great library of alexandra
 //              - He introduced the study of geography.
