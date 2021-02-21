@@ -13,8 +13,6 @@
 // Concepts       : Using an array to generate a number set
 //                : Using the set for calculating new numbers in the set
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-// Generating Fibonacci Numbers
-//
 #include <stdio.h>
 
 int main(void)
