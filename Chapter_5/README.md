@@ -18,3 +18,30 @@ It discusses the following
 * <u>**The *continue* Statement**</u> - Continues the current loop, but skips program statements for current iteration. Can be seen as a bypass. <u>Key words</u> *after*
 
 **<u>Exercises</u>** - Please see corresponding files in this directory.
+
+- [x] Exercise 5.1
+    - [x] [Program 5.1](Exercise_5.1/Program_5.1.c)
+    - [x] [Program 5.2](Exercise_5.1/Program_5.2.c)
+    - [x] [Program 5.3](Exercise_5.1/Program_5.3.c)
+        - [x] [Program 5.3a](Exercise_5.1/Program_5.3a.c)
+        - [x] [Program 5.3b](Exercise_5.1/Program_5.3b.c)
+    - [x] [Program 5.4](Exercise_5.1/Program_5.4.c)
+    - [x] [Program 5.5](Exercise_5.1/Program_5.5.c)
+    - [x] [Program 5.6](Exercise_5.1/Program_5.6.c)
+    - [x] [Program 5.7](Exercise_5.1/Program_5.7.c)
+    - [x] [Program 5.8](Exercise_5.1/Program_5.8.c)
+    - [x] [Program 5.9](Exercise_5.1/Program_5.9.c)
+- [x] [Exercise 5.2](Exercise_5.2.c)
+- [x] [Exercise 5.3](Exercise_5.3.c)
+- [x] [Exercise 5.4](Exercise_5.4.c)
+- [x] [Exercise 5.5](Exercise_5.5.c)
+- [x] [Exercise 5.6](Exercise_5.6.c)
+- [x] [Exercise 5.7](Exercise_5.7.c)
+- [x] [Exercise 5.8](Exercise_5.8.c)
+- [x] Exercise 5.9
+    - [x] [Exercise 5.9a](Exercise_5.9a.c)
+    - [x] [Exercise 5.9b](Exercise_5.9b.c)
+    - [x] [Exercise 5.9c](Exercise_5.9c.c)
+    - [x] [Exercise 5.9d](Exercise_5.9d.c)
+- [x] [Exercise 5.10](Exercise_5.10.c)
+- [x] [Exercise 5.11](Exercise_5.11.c)

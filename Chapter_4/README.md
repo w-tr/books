@@ -36,3 +36,17 @@ It discusses the following
 <u>**Types _Complex and _Imaginary**</u> - Nothing noteworthy mentioned in this chapter.
 
 **<u>Exercises</u>** - Please see corresponding files in this directory.
+
+- [x] Exercise 4.1
+    - [x] [Program 4.1](Exercise_4.1/Program_4.1.c)
+    - [x] [Program 4.2](Exercise_4.1/Program_4.2.c)
+    - [x] [Program 4.3](Exercise_4.1/Program_4.3.c)
+    - [x] [Program 4.4](Exercise_4.1/Program_4.4.c)
+    - [x] [Program 4.5](Exercise_4.1/Program_4.5.c)
+- [x] [Exercise 4.2](Exercise_4.2.c)
+- [x] [Exercise 4.3](Exercise_4.3.c)
+- [x] [Exercise 4.4](Exercise_4.4.c)
+- [x] [Exercise 4.5](Exercise_4.5.c)
+- [x] [Exercise 4.6](Exercise_4.6.c)
+- [x] [Exercise 4.7](Exercise_4.7.c)
+- [x] [Exercise 4.8](Exercise_4.8.c)

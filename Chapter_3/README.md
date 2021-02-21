@@ -26,3 +26,16 @@ gcc programName.c -o execute
 
 **<u>Exercises</u>** - Please see corresponding files in this directory.
 
+- [x] Exercise 3.1
+    - [x] [Program 3.1](Exercise_3.1/Program_3.1.c)
+    - [x] [Program 3.2](Exercise_3.1/Program_3.2.c)
+    - [x] [Program 3.3](Exercise_3.1/Program_3.3.c)
+    - [x] [Program 3.4](Exercise_3.1/Program_3.4.c)
+    - [x] [Program 3.5](Exercise_3.1/Program_3.5.c)
+    - [x] [Program 3.6](Exercise_3.1/Program_3.6.c)
+- [x] [Exercise 3.2](Exercise_3.2.c)
+- [x] [Exercise 3.3](Exercise_3.3.c)
+- [x] [Exercise 3.4](Exercise_3.4.c)
+- [x] [Exercise 3.5](Exercise_3.5.c)
+- [x] [Exercise 3.6](Exercise_3.6.c)
+

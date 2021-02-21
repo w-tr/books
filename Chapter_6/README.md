@@ -18,3 +18,23 @@ Alluding the previous chapter, if you didn't have get out conditions on loops, y
 <u>**The Conditional Operator**</u> - Assignment based on condition, like conditional when in vhdl. <u>Key words</u> *ternary operator, macros*
 
 **<u>Exercises</u>** - Please see corresponding files in this directory.
+
+- [x] Exercise 6.1
+    - [x] [Program 6.1](Exercise_6.1/Program_6.1.c)
+    - [x] [Program 6.2](Exercise_6.1/Program_6.2.c)
+    - [x] [Program 6.3](Exercise_6.1/Program_6.3.c)
+    - [x] [Program 6.4](Exercise_6.1/Program_6.4.c)
+    - [x] [Program 6.5](Exercise_6.1/Program_6.5.c)
+    - [x] [Program 6.6](Exercise_6.1/Program_6.6.c)
+    - [x] [Program 6.7](Exercise_6.1/Program_6.7.c)
+    - [x] [Program 6.8](Exercise_6.1/Program_6.8.c)
+        - [x] [Program 6.8a](Exercise_6.1/Program_6.8a.c)
+    - [x] [Program 6.9](Exercise_6.1/Program_6.9.c)
+    - [x] [Program 6.10](Exercise_6.1/Program_6.10.c)
+        - [x] [Program 6.10a](Exercise_6.1/Program_6.10a.c)
+- [x] [Exercise 6.2](Exercise_6.2.c)
+- [x] [Exercise 6.3](Exercise_6.3.c)
+- [x] [Exercise 6.4](Exercise_6.4.c)
+- [x] [Exercise 6.5](Exercise_6.5.c)
+- [x] [Exercise 6.6](Exercise_6.6.c)
+- [x] [Exercise 6.7](Exercise_6.7.c)
