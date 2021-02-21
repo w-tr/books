@@ -33,9 +33,9 @@ It discusses the following
     - [x] [Program 7.6](Exercise_7.1/Program_7.6.c)
     - [x] [Program 7.7](Exercise_7.1/Program_7.7.c)
     - [x] [Program 7.8](Exercise_7.1/Program_7.8.c)
-- [ ] Exercise 7.2
-- [ ] Exercise 7.3
-- [ ] Exercise 7.4
-- [ ] Exercise 7.5
-- [ ] Exercise 7.6
-- [ ] Exercise 7.7
+- [x] [Exercise 7.2](Exercise_7.2.c)
+- [x] [Exercise 7.3](Exercise_7.3.c)
+- [x] [Exercise 7.4](Exercise_7.4.c)
+- [x] [Exercise 7.5](Exercise_7.5.c)
+- [x] [Exercise 7.6](Exercise_7.6.c)
+- [x] [Exercise 7.7](Exercise_7.7.c)
