@@ -18,7 +18,7 @@ The books "Table of Content"  represents the task list.
 - [x] [04. Variables, Data Types, and Arithmetic Expressions](Chapter_4)
 - [x] [05. Program Loops](Chapter_5)
 - [x] [06. Making Decisions](Chapter_6)
-- [ ] 07. Working with Arrays
+- [x] [07. Working with Arrays](Chapter_7)
 - [ ] 08. Working with Functions
 - [ ] 09. Working with Structures
 - [ ] 10. Character Strings
