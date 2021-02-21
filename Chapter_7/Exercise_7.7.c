@@ -13,7 +13,6 @@
 // Concepts       : Implementing algorithm based on description of steps, using
 //                :    knowledge of arrays, loops, everything discused todate
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-// Implementation of the Sieve of Erastothenes
 // Fun facts    - Erastothenes was the head of the great library of alexandra
 //              - He introduced the study of geography.
 //              - He calculated the circumference of the earth.
