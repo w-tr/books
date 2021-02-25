@@ -36,23 +36,23 @@ This chapter discusses the following
 **<u>Exercises</u>** - Please see corresponding files in this directory.
 
 - [x] Exercise 8.1
-  - [ ] Program 8.1
-  - [ ] Program 8.2
-  - [ ] Program 8.3
-  - [ ] Program 8.4
-  - [ ] Program 8.5
-  - [ ] Program 8.6
-  - [ ] Program 8.7
-  - [ ] Program 8.8
-  - [ ] Program 8.9
-  - [ ] Program 8.10
-  - [ ] Program 8.11
-  - [ ] Program 8.12
-  - [ ] Program 8.13
-    - [ ] Program 8.13a
-  - [ ] Program 8.14
-  - [ ] Program 8.15
-  - [ ] Program 8.16
+  - [ ] [Program 8.1](Exercise_8.1/Program_8.1.c)
+  - [ ] [Program 8.2](Exercise_8.1/Program_8.2.c)
+  - [ ] [Program 8.3](Exercise_8.1/Program_8.3.c)
+  - [ ] [Program 8.4](Exercise_8.1/Program_8.4.c)
+  - [ ] [Program 8.5](Exercise_8.1/Program_8.5.c)
+  - [ ] [Program 8.6](Exercise_8.1/Program_8.6.c)
+  - [ ] [Program 8.7](Exercise_8.1/Program_8.7.c)
+  - [ ] [Program 8.8](Exercise_8.1/Program_8.8.c)
+  - [ ] [Program 8.9](Exercise_8.1/Program_8.9.c)
+  - [ ] [Program 8.10](Exercise_8.1/Program_8.10.c)
+  - [ ] [Program 8.11](Exercise_8.1/Program_8.11.c)
+  - [ ] [Program 8.12](Exercise_8.1/Program_8.12.c)
+  - [ ] [Program 8.13](Exercise_8.1/Program_8.13.c)
+    - [ ] [Program 8.13a](Exercise_8.1/Program_8.13a.c)
+  - [ ] [Program 8.14](Exercise_8.1/Program_8.14.c)
+  - [ ] [Program 8.15](Exercise_8.1/Program_8.15.c)
+  - [ ] [Program 8.16](Exercise_8.1/Program_8.16.c)
 - [ ] Exercise 8.2
 - [ ] Exercise 8.3
 - [ ] Exercise 8.4
