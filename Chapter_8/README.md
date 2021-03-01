@@ -53,16 +53,16 @@ This chapter discusses the following
   - [x] [Program 8.14](Exercise_8.1/Program_8.14.c)
   - [x] [Program 8.15](Exercise_8.1/Program_8.15.c)
   - [x] [Program 8.16](Exercise_8.1/Program_8.16.c)
-- [ ] Exercise 8.2
-- [ ] Exercise 8.3
-- [ ] Exercise 8.4
-- [ ] Exercise 8.5
-- [ ] Exercise 8.6
-- [ ] Exercise 8.7
-- [ ] Exercise 8.8
-- [ ] Exercise 8.9
-- [ ] Exercise 8.10
-- [ ] Exercise 8.11
+- [x] [Exercise 8.2](Exercise_8.2.c)
+- [x] [Exercise 8.3](Exercise_8.3.c)
+- [x] [Exercise 8.4](Exercise_8.4.c)
+- [x] [Exercise 8.5](Exercise_8.5.c)
+- [x] [Exercise 8.6](Exercise_8.6.c)
+- [x] [Exercise 8.7](Exercise_8.7.c)
+- [x] [Exercise 8.8](Exercise_8.8.c)
+- [x] [Exercise 8.9](Exercise_8.9.c)
+- [x] [Exercise 8.10](Exercise_8.10.c)
+- [x] [Exercise 8.11](Exercise_8.11.c)
 - [ ] Exercise 8.12
   - [ ] Exercise 8.12a
   - [ ] Exercise 8.12b
