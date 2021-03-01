@@ -53,6 +53,7 @@ int main (void)
     // const float epsilon = 0.00001;
     // const float epsilon = 0.01;
     const float epsilon = 1.01; // how close ratio is to 1
+    const float epsilon = 1.00001; // how close ratio is to 1
     printf("Square root of (2.0) = %f\n", sqrt(2.0, epsilon));
     printf("Square root of (144.0) = %f\n", sqrt(144.0, epsilon));
     printf("Square root of (17.5) = %f\n", sqrt(17.5, epsilon));
