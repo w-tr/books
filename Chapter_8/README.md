@@ -63,9 +63,9 @@ This chapter discusses the following
 - [x] [Exercise 8.9](Exercise_8.9.c)
 - [x] [Exercise 8.10](Exercise_8.10.c)
 - [x] [Exercise 8.11](Exercise_8.11.c)
-- [ ] Exercise 8.12
-  - [ ] Exercise 8.12a
-  - [ ] Exercise 8.12b
+- [x] Exercise 8.12
+  - [x] [Exercise 8.12a](Exercise_8.12a.c)
+  - [x] [Exercise 8.12b](Exercise_8.12b.c)
 - [ ] Exercise 8.13
 - [ ] Exercise 8.14
   - [ ] Exercise 8.14a
