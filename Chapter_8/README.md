@@ -66,11 +66,11 @@ This chapter discusses the following
 - [x] Exercise 8.12
   - [x] [Exercise 8.12a](Exercise_8.12a.c)
   - [x] [Exercise 8.12b](Exercise_8.12b.c)
-- [ ] [Exercise 8.13](Exercise_8.13.c)
+- [x] [Exercise 8.13](Exercise_8.13.c)
 - [ ] Exercise 8.14
-  - [ ] Exercise 8.14a
-  - [ ] Exercise 8.14b
-  - [ ] Exercise 8.14c
-  - [ ] Exercise 8.14d
-- [ ] Exercise 8.15
-- [ ] Exercise 8.16
+  - [x] [Exercise 8.14a](Exercise_8.14a.c)
+  - [x] [Exercise 8.14b](Exercise_8.14b.c)
+  - [x] [Exercise 8.14c](Exercise_8.14c.c)
+  - [x] [Exercise 8.14d](Exercise_8.14d.c)
+- [x] [Exercise 8.15](Exercise_8.15.c)
+- [x] [Exercise 8.16](Exercise_8.16.c)
