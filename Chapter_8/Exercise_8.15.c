@@ -10,14 +10,12 @@
 // Author         : Wesley Taylor-Rendal (WTR)
 // Design history : Review git logs.
 // Description    : Edit of Program_8.14, converting base
-// Concepts       : 
+// Concepts       : A programming style that forces user to comply by rules or
+//                :     get stuck in a loop.
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-// Convert a positive integer to a another base using GLOBAL variables
-
 #include <stdio.h>
 
-// Global variables below
+// Global variables
 int gConvertedNumber[64];
 long int gNumberToConvert;
 int gBase;
