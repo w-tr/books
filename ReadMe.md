@@ -19,7 +19,7 @@ The books "Table of Content"  represents the task list.
 - [x] [05. Program Loops](Chapter_5)
 - [x] [06. Making Decisions](Chapter_6)
 - [x] [07. Working with Arrays](Chapter_7)
-- [ ] 08. Working with Functions
+- [x] [08. Working with Functions](Chapter_8)
 - [ ] 09. Working with Structures
 - [ ] 10. Character Strings
 - [ ] 11. Pointers
