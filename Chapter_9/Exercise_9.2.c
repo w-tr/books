@@ -16,7 +16,7 @@
 
 struct date
 {
-    int day;      // Americans and the wrong order :(
+    int day;      
     int month;
     int year;
 };
@@ -25,7 +25,7 @@ struct date getDate(void)
 {
     struct date theDate;
     printf("Enter a date (dd mm yyyy) :\n");
-    scanf("%2i %2i %i", &theDate.day, &theDate.month, &theDate.year);
+    scanf("%d %d %d", &theDate.day, &theDate.month, &theDate.year);
     return theDate;
 }
 
