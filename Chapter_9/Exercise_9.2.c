@@ -11,6 +11,10 @@
 // Design history : Review git logs.
 // Description    : Finding the number of elapsed days between two dates.
 // Concepts       : 
+// NOTE           : The textbook is wrong on the dates
+//                :     day1 = (struct date) {8, 8, 2004};
+//                :     day2 = (struct date) {22, 2, 2005};
+//                : giving 202. He must have made a mistake on day figure.
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #include <stdio.h>
 
@@ -29,28 +33,61 @@ struct date getDate(void)
     return theDate;
 }
 
+int f(int year, int month)
+{
+    if (month <= 2)
+        return year-1;
+    else
+        return year;
+}
+
+int g(int month) 
+{
+    if (month <= 2)
+        return month+13;
+    else
+        return month+1;
+}
+    
+int getN(struct date theDate)
+{
+    int f(int year, int month);
+    int g(int month);
+    int sum;
+    sum = (1461 * f(theDate.year, theDate.month) / 4) + (153 * g(theDate.month) / 5) + theDate.day;
+    if (theDate.year >= 1800 && theDate.year <= 1900)
+        if (theDate.month >= 3)
+            if (theDate.day => 1)
+    return sum;
+}
+
+int abs(int a)
+{
+    if (a < 0)
+        return -a;
+    else
+        return a;
+}
+
+int diff(int a, int b)
+{
+    int abs(int a);
+    return abs(a - b);
+}
+
 int main(void)
 {
     struct date day1; 
     struct date day2; 
     struct date getDate(void);
+    int getN(struct date theDate);
 
-    day1 = getDate();
-    day2 = getDate();
-
-    printf("Day1 day = %.2i\n",day1.day);
-    printf("Day1 month = %.2i\n",day1.month);
-    printf("Day1 year = %i\n",day1.year);
-    printf("day2 day = %.2i\n",day2.day);
-    printf("day2 month = %.2i\n",day2.month);
-    printf("day2 year = %i\n",day2.year);
-
-    struct date day3 = { 9, 23, 1987}; 
-    printf("day3 month = %.2i\n",day3.month);
-    printf("day3 day = %.2i\n",day3.day);
-    printf("day3 year = %i\n",day3.year);
-    //printf("Day1 date is %.2i/%.2i/%i.\n", day1.month, day1.day, day1.year);
-    /*printf("Day2 date is %i/%i/%.2i.\n", day2.month, day2.day, day2.year % 100);*/
+    //day1 = getDate();
+    //day2 = getDate();
+    day1 = (struct date) {8, 8, 2004};
+    day2 = (struct date) {22, 2, 2005};
+    printf("Result for day1 = %i\n", getN(day1));
+    printf("Result for day2 = %i\n", getN(day2));
+    printf("The number of days between the dates is %i\n", diff(getN(day1), getN(day2) ) );
     return 0;
 }
-
