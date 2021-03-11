@@ -47,25 +47,36 @@ int getN(struct date theDate)
 {
     int f(int year, int month);
     int g(int month);
+    int whichCentury(struct date d);
     int sum;
     sum = (1461 * f(theDate.year, theDate.month) / 4) + (153 * g(theDate.month) / 5) + theDate.day;
-    // exception to the rule if before date x
-    // priority of checks. I wish I knew a different less verbose way of writing this
-    // if Before 01/03/1900
-    if (theDate.year <= 1900)
-        if (theDate.month < 3)
-        {
-            // If after 01/03/1800
-            if theDate.year >= 1800
-            {
-                if theDate.month > 2              ///ARGHH
-                    sum++;
-            }
-            if theDate.year >= 1700
-                if theDate.month
 
-    return sum;
+    //return sum;
+    return sum+whichCentury(theDate);
 }
+
+//FIXME, somethings not linking up with https://www.timeanddate.com/date/durationresult.html?d1=8&m1=8&y1=1710&d2=22&m2=2&y2=2005
+int whichCentury(struct date d)
+{
+    if (d.year >= 1900)
+        if ((d.year == 1900) && (d.month < 3))
+            return 1;
+        else
+            return 0;
+    else if (d.year >= 1800)
+        if ((d.year == 1800) && (d.month < 3))
+            return 2;
+        else
+            return 1;
+    else if (d.year >=1700)
+        if ((d.year == 1700) && (d.month < 3))
+            return 0;
+        else
+            return 2;
+    else 
+        return 0;
+}
+
 
 int abs(int a)
 {
@@ -88,12 +99,8 @@ int main(void)
     struct date getDate(void);
     int getN(struct date theDate);
 
-    //day1 = getDate();
-    //day2 = getDate();
-    day1 = (struct date) {8, 8, 2004};
-    day2 = (struct date) {22, 2, 2005};
-    printf("Result for day1 = %i\n", getN(day1));
-    printf("Result for day2 = %i\n", getN(day2));
+    day1 = getDate();
+    day2 = getDate();
     printf("The number of days between the dates is %i\n", diff(getN(day1), getN(day2) ) );
     return 0;
 }
