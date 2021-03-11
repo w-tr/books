@@ -35,18 +35,12 @@ struct date getDate(void)
 
 int f(int year, int month)
 {
-    if (month <= 2)
-        return year-1;
-    else
-        return year;
+    return (month <= 2) ? year-1 : year;
 }
 
 int g(int month) 
 {
-    if (month <= 2)
-        return month+13;
-    else
-        return month+1;
+    return (month <= 2) ? month+13 : month+1;
 }
     
 int getN(struct date theDate)
@@ -55,9 +49,21 @@ int getN(struct date theDate)
     int g(int month);
     int sum;
     sum = (1461 * f(theDate.year, theDate.month) / 4) + (153 * g(theDate.month) / 5) + theDate.day;
-    if (theDate.year >= 1800 && theDate.year <= 1900)
-        if (theDate.month >= 3)
-            if (theDate.day => 1)
+    // exception to the rule if before date x
+    // priority of checks. I wish I knew a different less verbose way of writing this
+    // if Before 01/03/1900
+    if (theDate.year <= 1900)
+        if (theDate.month < 3)
+        {
+            // If after 01/03/1800
+            if theDate.year >= 1800
+            {
+                if theDate.month > 2              ///ARGHH
+                    sum++;
+            }
+            if theDate.year >= 1700
+                if theDate.month
+
     return sum;
 }
 
