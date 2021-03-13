@@ -24,7 +24,7 @@ struct sTime
 struct sTime getTime(void)
 {
     struct sTime theTime;
-    printf("Enter a time (hh:mm:ss) : \n");
+    printf("Enter a time (hh:mm:ss) : ");
     scanf("%d:%d:%d", &theTime.hour, &theTime.minutes, &theTime.seconds);
     return theTime;
 }
@@ -60,6 +60,18 @@ int main(void)
     struct sTime elapse_time(struct sTime t1, struct sTime t2);
     struct sTime getTime(void);
 
+    t1 = (struct sTime) {23, 55, 40};
+    t2 = (struct sTime) {.minutes = 2, .hour = 4, .seconds = 45};
+    printf("T1 = %.2i:%.2i:%.2i\n", t1.hour, t1.minutes, t1.seconds);
+    printf("T2 = %.2i:%.2i:%.2i\n", t2.hour, t2.minutes, t2.seconds);
+    t3 = elapse_time(t1, t2);
+    printf("Time difference is : %.2i:%.2i:%.2i\n", t3.hour, t3.minutes, t3.seconds);
+    t2 = (struct sTime) {23, 55, 40};
+    t1 = (struct sTime) {.minutes = 2, .hour = 4, .seconds = 45};
+    printf("T1 = %.2i:%.2i:%.2i\n", t1.hour, t1.minutes, t1.seconds);
+    printf("T2 = %.2i:%.2i:%.2i\n", t2.hour, t2.minutes, t2.seconds);
+    t3 = elapse_time(t1, t2);
+    printf("Time difference is : %.2i:%.2i:%.2i\n", t3.hour, t3.minutes, t3.seconds);
     t1 = getTime();
     t2 = getTime();
     t3 = elapse_time(t1, t2);
