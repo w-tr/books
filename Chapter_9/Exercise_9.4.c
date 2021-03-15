@@ -20,6 +20,9 @@ struct date
     int month;
     int year;
 };
+struct sDay {
+    char day[10];
+};
 
 struct date getDate(void)
 {
@@ -88,15 +91,10 @@ int diff(int a, int b)
     return abs(a - b);
 }
 
-int main(void)
+// It may be better to return a character array rather than sDay
+struct sDay getEnglishDay(int i)
 {
-    struct date day1; 
-    struct date day2; 
-    struct date getDate(void);
-    struct sDay {
-        char day[9];
-    };
-    struct sDay daysOfWeek[] = 
+    const struct sDay daysOfWeek[] = 
     {
         {"Sunday"},
         {"Monday"},
@@ -106,7 +104,11 @@ int main(void)
         {"Friday"},
         {"Saturday"}
     };
-    struct sDay ugensDage[] = 
+    return daysOfWeek[i];
+}
+struct sDay getDanishDay(int i)
+{
+    const struct sDay ugensDage[] = 
     {
         {"Soendag"},
         {"Mandag"},
@@ -116,21 +118,31 @@ int main(void)
         {"Fredag"},
         {"Loedag"}
     };
+    return ugensDage[i];
+}
 
+int getDayIndex (struct date dayIn)
+{
     int getN(struct date theDate);
     const int cSubtract = 621049;
-    int day1_in_week;
-    int day2_in_week;
+    return (getN(dayIn) - cSubtract) % 7;
+}
+
+int main(void)
+{
+    struct date day1; 
+    struct date day2; 
+    struct date getDate(void);
+    int getN(struct date theDate);
 
     day1 = getDate();
-    day1_in_week = (getN(day1) - cSubtract) % 7;
     day2 = getDate();
-    day2_in_week = (getN(day2) - cSubtract) % 7;
-    printf("Day1 = %s\n", daysOfWeek[day1_in_week].day);
-    printf("Day2 = %s\n", daysOfWeek[day2_in_week].day);
-    printf("Day1 = %s\n", ugensDage[day1_in_week].day);
-    printf("Day2 = %s\n", ugensDage[day2_in_week].day);
 
-    //printf("The number of days between the dates is %i\n", diff(getN(day1), getN(day2) ) );
+    // need .day because a structure is returned not a char array.
+    printf("Day1 in English = %s\n", getEnglishDay(getDayIndex(day1)).day);
+    printf("Day1 in Danish  = %s\n", getDanishDay(getDayIndex(day1)).day);
+    printf("Day2 in English = %s\n", getEnglishDay(getDayIndex(day2)).day);
+    printf("Day2 in Danish  = %s\n", getDanishDay(getDayIndex(day2)).day);
+    printf("The number of days between the dates is %i\n", diff(getN(day1), getN(day2) ) );
     return 0;
 }
