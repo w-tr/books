@@ -16,57 +16,17 @@
 
 int main(void)
 {
+    char string1[81];
     int start, length;
     void removeString(char s[], int start, int length);
 
-    //  printf("Please enter string: ");
-    //  gets(string1);
-    //  printf("Please enter start and length or removal: ");
-    //  scanf("%i %i", start, length);
-    
-    // l-value
-    // string0 = "the wrong son";
-    char string0[] = "the wrong son";
-    start = 4, length = 6;
-    removeString(string0, start, length);
-    printf("%s!0\n", string0);
-
-    char string1[] = "the wrong son";
-    start = 8, length = 6;
+    printf("Please enter string: ");
+    gets(string1);
+    printf("Please enter start and length or removal: ");
+    scanf("%i %i", &start, &length);
     removeString(string1, start, length);
-    printf("%s!1\n", string1);
-
-    char string2[] = "This is my long string";
-    start = 4, length = 6;
-
-    for (int i=0; i <= 23; i++)
-        printf("%c", string2[i]);
-    printf("!2");
-    printf("\n");
-
-    removeString(string2, start, length);
-    printf("%s!!2\n", string2);
-
-    for (int i=0; i <= 23; i++)
-        printf("%c", string2[i]);
-    printf("!!!2");
-    printf("\n");
-
-    char string3[] = "This is my long string";
-    start = 0, length = 11;
-
-    for (int i=0; i <= 23; i++)
-        printf("%c", string3[i]);
-    printf("!3");
-    printf("\n");
-
-    removeString(string3, start, length);
-    printf("%s!!3\n", string3);
-
-    for (int i=0; i <= 23; i++)
-        printf("%c", string3[i]);
-    printf("!!!3");
-    printf("\n");
+    printf("%s\n", string1);
+    
     return 0;
 }
 
