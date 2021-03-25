@@ -23,31 +23,37 @@ int main(void)
     char string2[81];
     int findString(const char s1[], const char s2[]);
 
-    // printf("Please enter string1: ");
-    // gets(string1);
-    // printf("Please enter string2: ");
-    // gets(string2);
+    printf("Please enter string1: ");
+    gets(string1);
+    printf("Please enter string2: ");
+    gets(string2);
 
-    // index = findString(string1, string2);
-    // if (index >= 0)
-    //     printf("Found string2 within string1 starting at character %i\n", index);
-    // else 
-    //     printf("Could not find string2 in string1\n");
-    printf("Test mid to mid\n");
-    index = findString("this is a test", "is a");
-    printf("%i\n", index);
-    printf("Test mid to mid2\n");
-    index = findString("this is a test", "a tes");
-    printf("%i\n", index);
-    printf("Test start to mid\n");
-    index = findString("this is a test", "this is");
-    printf("%i\n", index);
-    printf("Test mid to end\n");
-    index = findString("this is a test", "a test");
-    printf("%i\n", index);
-    printf("Test start to end\n");
-    index = findString("this is a test", "this is a test");
-    printf("%i\n", index);
+    index = findString(string1, string2);
+    if (index >= 0)
+        printf("Found string2 within string1 starting at character %i\n", index);
+    else 
+        printf("Could not find string2 in string1\n");
+    // -------------------------------------
+    // Collection of test cases
+    // -------------------------------------
+    // printf("Test mid to mid\n");
+    // index = findString("this is a test", "is a");
+    // printf("%i\n", index);
+    // printf("Test mid to mid2\n");
+    // index = findString("this is a test", "a tes");
+    // printf("%i\n", index);
+    // printf("Test start to mid\n");
+    // index = findString("this is a test", "this is");
+    // printf("%i\n", index);
+    // printf("Test mid to end\n");
+    // index = findString("this is a test", "a test");
+    // printf("%i\n", index);
+    // printf("Test start to end\n");
+    // index = findString("this is a test", "this is a test");
+    // printf("%i\n", index);
+    // printf("Test capitalisation\n");
+    // index = findString("this is a test", "this is A test");
+    // printf("%i\n", index);
 
     return 0;
 }
