@@ -24,26 +24,26 @@ Double quotations delimit a character string, whereas single quotations delimit 
 
 <u>**Exercises**</u> - Please see corresponding files in this directory.
 
-- [ ] Exercise 10.1
-  - [x] Program 10.1
-  - [x] Program 10.2
-  - [x] Program 10.3
-  - [x] Program 10.4
-  - [x] Program 10.5
-  - [x] Program 10.6
-  - [x] Program 10.7
-  - [x] Program 10.8
-  - [x] Program 10.9
-  - [x] Program 10.10
-  - [x] Program 10.11
-- [x] Exercise 10.2
-- [x] Exercise 10.3
-- [x] Exercise 10.4
-- [x] Exercise 10.5
-- [ ] Exercise 10.6
-- [ ] Exercise 10.7
-- [ ] Exercise 10.8
-- [ ] Exercise 10.9
+- [x] Exercise 10.1
+  - [x] [Program 10.1](Exercise_10.1/Program_10.1.c)
+  - [x] [Program 10.2](Exercise_10.1/Program_10.2.c)
+  - [x] [Program 10.3](Exercise_10.1/Program_10.3.c)
+  - [x] [Program 10.4](Exercise_10.1/Program_10.4.c)
+  - [x] [Program 10.5](Exercise_10.1/Program_10.5.c)
+  - [x] [Program 10.6](Exercise_10.1/Program_10.6.c)
+  - [x] [Program 10.7](Exercise_10.1/Program_10.7.c)
+  - [x] [Program 10.8](Exercise_10.1/Program_10.8.c)
+  - [x] [Program 10.9](Exercise_10.1/Program_10.9.c)
+  - [x] [Program 10.10](Exercise_10.1/Program_10.10.c)
+  - [x] [Program 10.11](Exercise_10.1/Program_10.11.c)
+- [x] [Exercise 10.2](Exercise_10.2.c)
+- [x] [Exercise 10.3](Exercise_10.3.c)
+- [x] [Exercise 10.4](Exercise_10.4.c)
+- [x] [Exercise 10.5](Exercise_10.5.c)
+- [x] [Exercise 10.6](Exercise_10.6.c)
+- [x] [Exercise 10.7](Exercise_10.7.c)
+- [x] [Exercise 10.8](Exercise_10.8.c)
+- [x] [Exercise 10.9](Exercise_10.9.c)
 - [ ] Exercise 10.10
 - [ ] Exercise 10.11
 - [ ] Exercise 10.12
