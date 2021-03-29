@@ -23,10 +23,9 @@ void getTail(const char source[], char tail[], int position)
     for (i=position; source[i] != '\0'; i++)
         tail[i-position] = source[i];
 
+    // terminate
     tail[i-position] = '\0';
 
-    printf("Tail\n");
-    printf("%s\n", tail);
     return;
 }
 
@@ -39,9 +38,7 @@ void newBaseStr(char source[], const char insert[], int position)
         source[offset] = insert[j];
     //terminate
     source[offset] = '\0';
-
-    printf("Superimpose over original\n");
-    printf("%s\n", source);
+    return;
 }
 
 void insertString(char source[], const char insert[], int position)
@@ -53,29 +50,37 @@ void insertString(char source[], const char insert[], int position)
 
     // bail on impossible situation.
     if (position > strlen(source))
+    {
+        printf("out of bounds\n");
         return;
+    }
 
     getTail(source, tail, position);
     newBaseStr(source, insert, position);
     newBaseStr(source, tail, position+strlen(insert));
-
-   //  // place original remainder at end of new source.
-   //  for (i=(strlen(insert)+position), j=0; i<(strlen(source)+strlen(insert)); i++, j++)
-   //      source[i] = temp[position+j];
-
-   //  printf("Add copy of original's tail onto orignal\n");
-   //  printf("%s\n", source);
-
-   //  // finish with null char
-   //  source[i] = '\0';
     return;
 }
 
 int main(void)
 {
-    char text[81] = "The wrong son";
+    char starttext[81] = "The wrong son";
+    char starttext1[81] = "The wrong son";
+    char midtext[81] = "The wrong son";
+    char endtext[81] = "The wrong son";
+    char endtext1[81] = "The wrong son";
+    char outofbounds[81] = "The wrong son";
 
-    insertString(text, "per", 10);
-    printf("%s\n", text);
+    insertString(starttext, "per", 0);
+    insertString(starttext1, "per", 1);
+    insertString(midtext, "per", 10);
+    insertString(endtext, "per", 12);
+    insertString(endtext1, "per", 13);
+    insertString(outofbounds, "per", 14);
+    printf("%s\n", starttext);
+    printf("%s\n", starttext1);
+    printf("%s\n", midtext);
+    printf("%s\n", endtext);
+    printf("%s\n", endtext1);
+    printf("%s\n", outofbounds);
     return 0;
 }
