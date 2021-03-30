@@ -13,7 +13,7 @@
 // Concepts       : A character symbol is essentially a number associated with 
 //                :     ascii lookup. Knowledge about this allows for user to 
 //                :     offset things back to numbers using operators and char 
-//                      symbols.
+//                :     symbols.
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #include <stdio.h>
 
