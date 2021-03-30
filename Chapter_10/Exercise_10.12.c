@@ -14,7 +14,11 @@
 //                : 1. Check string is acceptable
 //                : 2. Find the sign
 //                : 3. Find the point
-//                : 5. Set startnumb
+//                : 4. Remove point and generate signifcand
+//                : 5. Using point location create exponent
+//                : 6. Multiply signifand, exponent and base to generate 
+//                :     floating point.
+//                : Important of long float/double
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #include <stdio.h>
 #include <stdbool.h>
@@ -121,7 +125,8 @@ int str2int (const char str[])
     return result*sign;
 }
 
-float str2float (char str[])
+// long float or it loses accuracy
+double str2float (char str[])
 {
     const int c_base = 10;
 
@@ -164,16 +169,29 @@ float str2float (char str[])
     // it in with regards to point location
     // !!!
     int exponent = pointLocation - strlen(str); 
-    
 
-    return significand*pow(c_base, exponent);
+
+    // Generate floating number
+    // -----------------
+    float result_f = significand*pow(c_base, exponent);
+    double result_lf = significand*pow(c_base, exponent);
+    
+    // #DEBUG 
+    // Check everything is good
+    // -----------------
+    // printf("significand = %i\n", significand);
+    // printf("exponent = %i\n", exponent);
+    // printf("float s*e      = %f\n", result_f);
+    // printf("long float s*e = %lf\n", result_lf);
+    
+    return result_lf;
 
 }
 
 int main(void)
 {
     int str2int (const char str[]);
-    float str2float (char str[]);
+    double str2float (char str[]);
 
    //  printf("%i\n", str2int("245"));
    //  printf("%i\n", str2int("100")+25);
@@ -185,12 +203,22 @@ int main(void)
    //  printf("%f\n", str2float("13x5")); // if alphanumeric then exits loop.
    //  printf("%f\n", str2float("245"));
    //  printf("%f\n", str2float("-100"));
+    printf("------------------\n");
     printf("%f\n", str2float("-10.78"));
+    printf("------------------\n");
     printf("%f\n", str2float("510.12"));
+    printf("------------------\n");
     printf("%f\n", str2float("-10.123278"));
+    printf("------------------\n");
     printf("%f\n", str2float("-123230.78"));
+    printf("------------------\n");
     printf("%f\n", str2float("512320.12"));
+    printf("------------------\n");
     printf("%f\n", str2float("51080.12"));
+    printf("------------------\n");
+    printf("%f\n", str2float("13x5")); // if alphanumeric then exits loop.
+    printf("------------------\n");
+    printf("%f\n", str2float("-867.6921"));
 
     return 0;
 }
