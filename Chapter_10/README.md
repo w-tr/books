@@ -44,8 +44,8 @@ Double quotations delimit a character string, whereas single quotations delimit 
 - [x] [Exercise 10.7](Exercise_10.7.c)
 - [x] [Exercise 10.8](Exercise_10.8.c)
 - [x] [Exercise 10.9](Exercise_10.9.c)
-- [ ] Exercise 10.10
-- [ ] Exercise 10.11
-- [ ] Exercise 10.12
-- [ ] Exercise 10.13
-- [ ] Exercise 10.14
+- [x] [Exercise 10.10](Exercise_10.10.c)
+- [x] [Exercise 10.11](Exercise_10.11.c)
+- [x] [Exercise 10.12](Exercise_10.12.c)
+- [x] [Exercise 10.13](Exercise_10.13.c)
+- [x] [Exercise 10.14](Exercise_10.14.c)
