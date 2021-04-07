@@ -25,6 +25,9 @@ void insertEntryAfter(struct entry *new, struct entry *current)
     new->next = current->next;
     current->next = new;
 }
+// This over engineering on first run through is mentioned in next
+// question.             |
+//                       V
 // YOU CAN ONLY INSERT AFTER, BECAUSE THE CURRENT NEEDS TO REDIRECT TO 
 // THE NEW LINK. 
 // TO INSERT BEFOREHAND YOU OVERWRITE THE VALUE OF CURRENT.
