@@ -25,7 +25,7 @@
 int arraySum(int array[], const int n)
 {
     int sum = 0, *ptr;
-    int * const arrrayEnd = array + n; // provided the n is correct lol.
+    int * const arrayEnd = array + n; // provided the n is correct lol.
 
     for (ptr = array; ptr < arrayEnd; ++ptr)
         sum += *ptr; // notice the *
