@@ -9,7 +9,7 @@
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Author         : Wesley Taylor-Rendal (WTR)
 // Design history : Review git logs.
-// Description    : A function called insertEntry, with insert at begin feature
+// Description    : A function called removeEntry
 // Concepts       : A single link list looks forward, therefore you can delve
 //                :     down the next links to find the next in sequence. This
 //                :     enables you to remove a "node" from the list.
