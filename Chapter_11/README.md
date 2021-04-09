@@ -48,13 +48,13 @@ A pointer provides an indirect means of accessing the value of a particular data
   - [x] [Program 11.14](Exercise_11.1/Program_11.14.c)
   - [x] [Program 11.15](Exercise_11.1/Program_11.15.c)
 - [x] [Exercise 11.2](Exercise_11.2.c)
-- [ ] [Exercise 11.3]
-- [ ] [Exercise 11.4]
-- [ ] [Exercise 11.5]
-- [ ] [Exercise 11.6]
-- [ ] [Exercise 11.7]
-- [ ] [Exercise 11.8]
-- [ ] [Exercise 11.9]
-- [ ] [Exercise 11.10]
-- [ ] [Exercise 11.11]
-- [ ] [Exercise 11.12]
+- [x] [Exercise 11.3](Exercise_11.3.c)
+- [x] [Exercise 11.4](Exercise_11.4.c)
+- [x] [Exercise 11.5](Exercise_11.5.c)
+- [x] [Exercise 11.6](Exercise_11.6.c)
+- [x] [Exercise 11.7](Exercise_11.7.c)
+- [x] [Exercise 11.8](Exercise_11.8.c)
+- [x] [Exercise 11.9](Exercise_11.9.c)
+- [x] [Exercise 11.10](Exercise_11.10.c)
+- [x] [Exercise 11.11](Exercise_11.11.c)
+- [x] [Exercise 11.12](Exercise_11.12.c)
