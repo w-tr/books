@@ -22,8 +22,8 @@ The books "Table of Content"  represents the task list.
 - [x] [08. Working with Functions](Chapter_08)
 - [x] [09. Working with Structures](Chapter_09)
 - [x] [10. Character Strings](Chapter_10)
-- [ ] 11. Pointers
-- [ ] 12. Operations on Bits
+- [x] [11. Pointers](Chapter_11)
+- [x] [12. Operations on Bits](Chapter_12)
 - [ ] 13. The Preprocessor
 - [ ] 14. More on Data Types
 
