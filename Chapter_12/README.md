@@ -29,4 +29,10 @@ Sometimes systems programmers need to twiddle the bits in computer memory. A rec
   - [x] [Program 12.2](Exercise_12.1/Program_12.2.c)
   - [x] [Program 12.3](Exercise_12.1/Program_12.3.c)
   - [x] [Program 12.4](Exercise_12.1/Program_12.4.c)
-- [ ] Exercise 12.2
+- [x] [Exercise 12.2](Exercise_12.2)
+- [x] [Exercise 12.3](Exercise_12.3)
+- [x] [Exercise 12.4](Exercise_12.4)
+- [x] [Exercise 12.5](Exercise_12.5)
+- [x] [Exercise 12.6](Exercise_12.6)
+- [x] [Exercise 12.7](Exercise_12.7)
+- [x] [Exercise 12.8](Exercise_12.8)
