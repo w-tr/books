@@ -29,7 +29,16 @@ Before C compilation process, commands identified by #. <u>Key words</u> *before
 <u>**Exercises**</u> - Please see corresponding files in this directory.
 
 - [x] Exercise 13.1
-  - [x] [Program 13.1](Exercise_13.1/Program_13.1)
-  - [x] [Program 13.2](Exercise_13.1/Program_13.2)
-  - [x] [Program 13.3](Exercise_13.1/Program_13.3)
-- [ ] Exercise 13.2
+  - [x] [Program 13.1](Exercise_13.1/Program_13.1.c)
+  - [x] [Program 13.2](Exercise_13.1/Program_13.2.c)
+  - [x] [Program 13.3](Exercise_13.1/Program_13.3.c)
+- [x] [Exercise 13.2](Exercise_13.2.c)
+- [x] [Exercise 13.3](Exercise_13.3.c)
+- [x] [Exercise 13.4](Exercise_13.4.c)
+- [x] [Exercise 13.5](Exercise_13.5.c)
+- [x] [Exercise 13.6](Exercise_13.6.c)
+- [x] [Exercise 13.7](Exercise_13.7.c)
+- [x] [Exercise 13.8](Exercise_13.8.c)
+- [x] [Exercise 13.9](Exercise_13.9.c)
+- [x] [Exercise 13.10](Exercise_13.10.c)
+- [x] [Exercise 13.11](Exercise_13.11.c)
