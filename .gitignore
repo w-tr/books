@@ -4,5 +4,6 @@
 !.gitignore
 !*.c
 !*.md
+!*.h
 # and instances of the above in subdirectories.
 !*/
