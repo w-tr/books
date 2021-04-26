@@ -26,4 +26,9 @@ The books "Table of Content"  represents the task list.
 - [x] [12. Operations on Bits](Chapter_12)
 - [x] [13. The Preprocessor](Chapter_13)
 - [x] [14. More on Data Types](Chapter_14)
+- [x] [15. Working with Larger Programs](Chapter_15)
+- [ ] 16. Input and Output Operations in C
+- [ ] 17. Miscellaneous and Advances Features
+- [ ] 18. Debugging Programs
+- [ ] 19. Object-Oriented Programming
 
