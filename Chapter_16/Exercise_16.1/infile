@@ -1,0 +1,22 @@
+This is my input file. It contains much information
+
+in addition to many lines
+
+I wrote this so
+
+I could witness
+
+how the system copes with \n 
+speacial \t characters etc.
+
+\M \CR are all seen as text because each is witnessed one
+
+char at a time "\" "M" etc.
+
+however the end of the file is more akin to ^M style symbols
+
+Which I might be able to inject through vim and alt keys.
+
+However I'll not do this because I point is the operating system
+
+should automatically add the eof
