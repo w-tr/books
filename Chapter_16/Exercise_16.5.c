@@ -10,7 +10,8 @@
 // Author         : Wesley Taylor-Rendal (WTR)
 // Design history : Review git logs.
 // Description    : Read and print only columns m to n
-// Concepts       : Manipulate the fput to only place specific columns
+// Concepts       : Manipulate the fprint to only place specific width from an
+//                :     offset.
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #include <stdio.h>
 #include <stdlib.h>
