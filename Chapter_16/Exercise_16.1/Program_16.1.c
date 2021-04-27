@@ -72,8 +72,8 @@ int main(void)
 
     printf ("\n");
 
-    printf ("This%n is fun.%n\n", &c1, &c2); // doesn't work on visual studio, need to use gcc
-    printf ("c1 = %i, c2 = %i\n", c1, c2);
+    /*printf ("This%n is fun.%n\n", &c1, &c2); // doesn't work on visual studio, need to use gcc*/
+    /*printf ("c1 = %i, c2 = %i\n", c1, c2);*/
 
     return 0;
 }
