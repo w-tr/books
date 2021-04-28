@@ -28,7 +28,7 @@ The books "Table of Content"  represents the task list.
 - [x] [14. More on Data Types](Chapter_14)
 - [x] [15. Working with Larger Programs](Chapter_15)
 - [x] [16. Input and Output Operations in C](Chapter_16)
-- [ ] 17. Miscellaneous and Advances Features
+- [x] [17. Miscellaneous and Advances Features](Chapter_17)
 - [ ] 18. Debugging Programs
 - [ ] 19. Object-Oriented Programming
 
