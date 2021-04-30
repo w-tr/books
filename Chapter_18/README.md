@@ -5,7 +5,9 @@ Introduces you to two types of debugging techniques. 1. The preprocessor, 2. An 
 <u>**Debugging with the Preprocessor**</u> - Using the preprocessor, conditional compilations can be created where additional debugging code is run to help provide feedback of program operation. Activating the Debug can be done by 1. Command line compile with define or 2. Defining debug in the source code or 3. Using a Macro. See section for examples, but you can create a level system for debugging.
 
 
+
 **NOTE** - Other IDEs provide a debugging environment, use if required. gdb is a bit stoneage/archaic
+
 <u>**Debugging Programs with gdb**</u> - gbd allows you to see your program as it runs, by providing details of variables and current line of operation step through. <u>Key words</u> *core dumps*
 
 * <u>**Working with Variables**</u> - A variable can be printed or set. Sometimes you may need to include the scope to pinpoint correct variable.
