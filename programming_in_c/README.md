@@ -1,6 +1,6 @@
 This repository is dedicated to the exercises of 
 
-![book_cover](.\book_cover.jpg)
+![book_cover](book_cover.jpg)
 
 ---
 
