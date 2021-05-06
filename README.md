@@ -1,5 +1,7 @@
 This repository is dedicated to the exercises of 
 
+![book_cover](C:\github_w-tr\Books1\programming_in_c\book_cover.jpg)
+
 ---
 
 > Programming in C by Stephen G.Kochan
