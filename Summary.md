@@ -141,64 +141,30 @@ Memory can have certain characteristics such as read-before-write or write-befor
 
 ## Managing Clocks
 
+A topic more on FPGAS.
 
+Clock resources can be 1. clock distributed (clock buffers & routing) or 2. clock synthesis (clock source) within an FPGA.
 
+Distributed is regional clocking and global clocking routing through buffers and clock tree paths,  whereas clock synthesis is clock generation by PLLs, DLLs etc.  THESE ARE TOPICS UNTO THEMSELVES, READ UP SEPERATELY.
 
+**N.B** - FPGA vendors Xilinx uses bufg internal and gclk on FPGA pin, whereas Altera uses gclk internally as bufg.
 
+## I/O Flavours
 
+A topic more on FPGAs
 
+Basically over the years digital circuits have move on from just TTL and AS interfaces. There is a whole host of different standards for signal interfaces ranging from LVCMOS, LVDS, HSTL, LVPECL etc. Fortunately FPGAs are configurable and can often accommodate a range of these interfaces.
 
+In an FPGA you can control the attributes assigned to I/O pins by 1. Instantiating i/o primitives in HDL source files, 2. Using circuit design to inform the fpga of bank or i/o type, 3. design constraint files.
 
+AGAIN if you want to understand design constraints read the vendors guides.
 
+## A Taste of Simulation
 
+A topic unto itself.
 
+Simulation requires writing additional platform to place the unit under test (uut). This is called a testbench. Verilog code for a top level testbench is a module which does not contain any port list items because it's the entire universe as far as uut is concerned. Verilog has testbench only specific features, such as #delay, wait, loops.
 
+## The Rest for Reference
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### FML {#Test}
-
-## Test
-
-
-
+A collection of verilog language syntax

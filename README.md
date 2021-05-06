@@ -1,6 +1,6 @@
 This repository is dedicated to the exercises of
 
-![book_cover](.\book_cover.jpeg)
+![book_cover](book_cover.jpeg)
 
 ---
 
@@ -14,14 +14,14 @@ First Edition
 
 The books "Table of Contents" represents the task list.
 
-- [x] [Introduction](SUMMARY.md##Intro)
-- [x] [Tool Flow](SUMMARY.md###FML)
-- [x] In and Out
-- [x] Clocks and Registers
-- [x] State Machines
-- [x] Modular Design
-- [x] Memories
-- [ ] Managing Clocks
-- [ ] I/O Flavors
-- [ ] A Taste of Simulation
-- [ ] The Rest for Reference
+- [x] [Introduction](Summary.md)
+- [x] [Tool Flow](Summary.md)
+- [x] [In and Out](Summary.md)
+- [x] [Clocks and Registers](Summary.md)
+- [x] [State Machines](Summary.md)
+- [x] [Modular Design](Summary.md)
+- [x] [Memories](Summary.md)
+- [x] [Managing Clocks](Summary.md)
+- [x] [I/O Flavors](Summary.md)
+- [x] [A Taste of Simulation](Summary.md)
+- [x] [The Rest for Reference](Summary.md)
