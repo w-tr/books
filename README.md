@@ -3,9 +3,10 @@ A collection of books and the lessons they contain within. Whilst I've read and 
 
 - [x] [Programming in C by Stephen G. Kochan](programming_in_c)
 - [x] [Verilog By Example by Blaine C. Readler](verilog_by_example)
-- [ ] The Student's Guide to VHDL by Peter Ashenden (legend)
+- [ ] The Student's//Designers Guide to VHDL by Peter Ashenden (legend)
 - [ ] The C++ Programming Language by Bjarne Stoustrup (legende)
 - [ ] Effective Coding with VHDL by Richardo Janinski
 - [ ] Design Recipes for FPGAs by Peter Wilson
 - [ ] How Linux Works by Brian Ward
+- [x] [architectyourhome by Hugo Tugman](architectyourhome)
 
