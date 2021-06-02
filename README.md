@@ -9,4 +9,5 @@ A collection of books and the lessons they contain within. Whilst I've read and 
 - [ ] Design Recipes for FPGAs by Peter Wilson
 - [ ] How Linux Works by Brian Ward
 - [x] [architectyourhome by Hugo Tugman](architectyourhome)
+- [x] [12 Rules for life an antidote to chaos](12_rules_for_life)
 
