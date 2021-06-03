@@ -15,4 +15,15 @@ A collection of books and the lessons they contain within. Whilst I've read and 
 - [x] [Rich Dad Poor Dad by Robert Kiyosaki](rich_dad_poor_dad)
 - [x] [Brain Rules by John Medina](brain_rules)
 - [x] [Brain Rules for Baby by John Medina](brain_rules_for_baby)
+- [x] [The Official British Army Fitness Guide](the_official_british_army_fitness_guide)
+
+#### Note - Add chunking. Split books into sections. For example - Programming Languages, Finance, Psychology
+
+Programming Languages
+
+Body & Psychology / Neuroscience
+
+Money, management and Personal Finance
+
+Parenting & Child Development
 
