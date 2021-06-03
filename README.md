@@ -14,5 +14,5 @@ A collection of books and the lessons they contain within. Whilst I've read and 
 - [x] [How to Stop Worrying and Start Living by Dale Carnegie](how_to_stop_worrying_and_start_living)
 - [x] [Rich Dad Poor Dad by Robert Kiyosaki](rich_dad_poor_dad)
 - [x] [Brain Rules by John Medina](brain_rules)
-- [ ] [Brain Rules for Baby by John Medina](brain_rules_for_baby)
+- [x] [Brain Rules for Baby by John Medina](brain_rules_for_baby)
 
