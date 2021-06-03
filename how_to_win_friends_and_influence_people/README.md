@@ -4,7 +4,7 @@ This repository is dedicated to
 
 ---
 
-> How to Stop Worrying and Starting Living by Dale Carnegie
+> How to Win Friends and Influence People by Dale Carnegie
 >
 > ISBN :- 978-0091906818
 >
@@ -17,7 +17,7 @@ The books "Table of Content"  represents the task list.
 - [x] Part One: Fundamental techniques in handling people
     - [x] If you want to gather honey, don't kick over the beehive
     - [x] The big secret of dealing with people
-    - [x] He who can do htis has the whole world in him. He who cannot walks a lonely way
+    - [x] He who can do this has the whole world in him. He who cannot walks a lonely way
 - [x] Part Two: Six ways to make people like you
     - [x] Do this and you'll be welcome anywhere
     - [x] A simple way to make a good first impression
@@ -26,17 +26,17 @@ The books "Table of Content"  represents the task list.
     - [x] How to interest people
     - [x] How to make people like you instantly
 - [x] Part Three: How to win people to your way of thinking 
-    - [ ] You can't win an arguement
+    - [ ] You can't win an argument
     - [x] A sure way of making enemies - and how to avoid it
-    - [x] If you'r wrong, admit it
+    - [x] If you're wrong, admit it
     - [x] A drop of honey
     - [x] The secret of Socrates
-    - [x] The safety valve in handling commplaints
+    - [x] The safety valve in handling complaints
     - [x] How to get cooperation
     - [x] A formula that will work wonders for you
-    - [x] What everybod wants
+    - [x] What everybody wants
     - [x] An appeal that everybody likes
-    - [x] The movies do it. TV does it. Why dont you do it?
+    - [x] The movies do it. TV does it. Why don't you do it?
     - [x] When nothing else works, try this
 - [x] Part Four: Be a leader: How to change people without gibing offence or arousing resentment
     - [x] If you must find fault, this is the best way to begin
