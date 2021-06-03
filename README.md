@@ -12,4 +12,7 @@ A collection of books and the lessons they contain within. Whilst I've read and 
 - [x] [12 Rules for life an antidote to chaos by Jorgon Peterson](12_rules_for_life)
 - [x] [How to talk to kids so they listen & how to listen so kids talk](how_to_talk_to_kids_so_they_listen)
 - [x] [How to Stop Worrying and Start Living by Dale Carnegie](how_to_stop_worrying_and_start_living)
+- [x] [Rich Dad Poor Dad by Robert Kiyosaki](rich_dad_poor_dad)
+- [ ] [Brain Rules by John Medina](brain_rules)
+- [ ] [Brain Rules for Baby by John Medina](brain_rules_for_baby)
 
