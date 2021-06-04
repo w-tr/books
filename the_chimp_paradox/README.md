@@ -38,5 +38,5 @@ The books "Table of Content"  represents the task list.
 
 This book does not contain exercises, it is simply informative. Therefore a summary of what I thought relevant is given below. 
 
-![the_chimp_paradox](the_chimp_paradox.jpg)
+![the_chimp_paradox](The_Chimp_Paradox.jpg)
 
