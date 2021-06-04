@@ -23,6 +23,7 @@ A collection of books and the lessons they contain within. Whilst I've read and 
 - [x] [Cracking Codes by Diana Kimpton](cracking_codes)
 - [x] [Gwynne's Grammar by Gwynne](gwynnes_grammar)
 - [x] [The Chimp Paradox By Prof Steve Peters](the_chimp_paradox)
+- [x] [Managing Humans By Michael Loop](managing_humans)
 
 #### Note - Add chunking. Split books into sections. For example - Programming Languages, Finance, Psychology
 
