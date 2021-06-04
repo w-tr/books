@@ -20,6 +20,7 @@ A collection of books and the lessons they contain within. Whilst I've read and 
 - [x] [The Healthy Programmer By Joe Kutner](the_healthy_programmer)
 - [x] [Mindless Eating By Brian Wansink](mindless_eating)
 - [x] [How to Win Friends and Influence People by Dale Carnegie](how_to_win_friends_and_influence_people)
+- [x] [Cracking Codes by Diana Kimpton](cracking_codes)
 
 #### Note - Add chunking. Split books into sections. For example - Programming Languages, Finance, Psychology
 
