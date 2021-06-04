@@ -21,6 +21,7 @@ A collection of books and the lessons they contain within. Whilst I've read and 
 - [x] [Mindless Eating By Brian Wansink](mindless_eating)
 - [x] [How to Win Friends and Influence People by Dale Carnegie](how_to_win_friends_and_influence_people)
 - [x] [Cracking Codes by Diana Kimpton](cracking_codes)
+- [x] [Gwynne's Grammar by Gwynne](gwynnes_grammar)
 
 #### Note - Add chunking. Split books into sections. For example - Programming Languages, Finance, Psychology
 
