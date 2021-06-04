@@ -22,6 +22,7 @@ A collection of books and the lessons they contain within. Whilst I've read and 
 - [x] [How to Win Friends and Influence People by Dale Carnegie](how_to_win_friends_and_influence_people)
 - [x] [Cracking Codes by Diana Kimpton](cracking_codes)
 - [x] [Gwynne's Grammar by Gwynne](gwynnes_grammar)
+- [x] [The Chimp Paradox By Prof Steve Peters](the_chimp_paradox)
 
 #### Note - Add chunking. Split books into sections. For example - Programming Languages, Finance, Psychology
 
