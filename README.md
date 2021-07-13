@@ -3,10 +3,10 @@ A collection of books and the lessons they contain within. Whilst I've read and 
 
 - [x] [Programming in C by Stephen G. Kochan](programming_in_c)
 - [x] [Verilog By Example by Blaine C. Readler](verilog_by_example)
-- [ ] The Student's//Designers Guide to VHDL by Peter Ashenden (legend)
+- [ ] The Student's//Designers Guide to VHDL by Peter Ashenden (legend) - Read this book 10 years ago, have not annotated it yet.
 - [ ] The C++ Programming Language by Bjarne Stoustrup (legende)
-- [ ] Effective Coding with VHDL by Richardo Janinski
-- [ ] Design Recipes for FPGAs by Peter Wilson
+- [ ] Effective Coding with VHDL by Richardo Janinski - Read not annotated.
+- [ ] Design Recipes for FPGAs by Peter Wilson - Read not annotated
 - [ ] How Linux Works by Brian Ward
 - [x] [architectyourhome by Hugo Tugman](architectyourhome)
 - [x] [12 Rules for life an antidote to chaos by Jorgon Peterson](12_rules_for_life)
@@ -24,6 +24,8 @@ A collection of books and the lessons they contain within. Whilst I've read and 
 - [x] [Gwynne's Grammar by Gwynne](gwynnes_grammar)
 - [x] [The Chimp Paradox By Prof Steve Peters](the_chimp_paradox)
 - [x] [Managing Humans By Michael Loop](managing_humans)
+- [x] [THE FATE OF EMPIRES and Searching for Survival by Sir John Glubb](the_fate_of_empires)
+- [x] [The CS detective by Jeremy Kubica](the_cs_detective)
 
 #### Note - Add chunking. Split books into sections. For example - Programming Languages, Finance, Psychology
 
@@ -34,4 +36,26 @@ Body & Psychology / Neuroscience
 Money, management and Personal Finance
 
 Parenting & Child Development
+
+
+
+### Top 5 Books
+
+Stop worrying and Live life
+
+How to win friends and influence people
+
+Mindless eating
+
+The Art of Learning
+
+The Richest Man in Babylon
+
+### Top Technical
+
+Digital Fundamentals
+
+Programming in C
+
+
 
